@@ -1,0 +1,55 @@
+#dogType {
+  display: flex;
+  gap: 3px;
+  justify-content: center;
+  align-items: center;
+}
+
+.item {
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s;
+  border: 1px solid #469cda;
+  background-color: #fff;
+  color: #1c8adb;
+  font-weight: bold;
+}
+
+.item:hover {
+  background-color: #469cda;
+  color: #fff;
+}
+
+.item.active {
+  background-color: #469cda;
+  color: #fff;
+}
+
+input[name="age"] {
+  width: 100px;
+  text-align: center;
+  border-radius: 5px;
+  border: 1px solid #469cda;
+  padding: 5px 10px;
+  color: #1c8adb;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+button {
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 1px solid #469cda;
+  background-color: #fff;
+  color: #1c8adb;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s;
+  margin: 20px 0;
+}
+
+button:hover {
+  background-color: #469cda;
+  color: #fff;
+}
